@@ -1,7 +1,9 @@
-export default function About() {
+export default function AboutPage() {
   return (
-    <div>
-      About Me
-    </div>
+    <main className="p-10">
+      <h1 className="text-4xl font-bold">
+        About Me
+      </h1>
+    </main>
   );
 }
